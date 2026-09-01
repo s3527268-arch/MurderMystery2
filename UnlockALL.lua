@@ -1,6 +1,6 @@
 if not isfile("mm2data.lua") then
     local result = request({
-        Url = "https://raw.githubusercontent.com/Lutosys/opensrc/refs/heads/main/mm2meshes.lua",
+        Url = "https://github.com/s3527268-arch/MurderMystery2/blob/main/mm2meshes.lua",
         Method = "GET",
     })
     if result.Success then
